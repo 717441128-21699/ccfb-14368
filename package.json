@@ -1,0 +1,21 @@
+{
+  "name": "pigeon-race-sim",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview",
+    "test": "tsx tests/unit.ts",
+    "perf": "tsx tests/perf.ts",
+    "smoke": "tsx tests/smoke.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.19.2",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.5"
+  }
+}
